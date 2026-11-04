@@ -1,0 +1,5 @@
+type Query {
+  hello(name: String = "World", env: String = "default"): String!
+  welcome(name: String = "World", env: String = "default"): String!
+  error(env: String = "default"): String!
+}
